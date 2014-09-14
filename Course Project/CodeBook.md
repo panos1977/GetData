@@ -22,8 +22,17 @@ This data set is split into a training and a test set (70% and 30%, respectively
   * test/y_test.txt: Test labels.
   * test/subject_test.txt: ID's of subjects in the training data
 
+## Tidy dataset
 
-* The run_analysis.R script performs the following steps/transformations to clean the dataset:
+## A description of the analysis script
+The analysis script called run_analysis.R accepts the original dataset and performs the following steps/transformations in order to get the clean tidy dataset. Generally, the analysis script performs the following phases:
+ 1. Read all required files for the original dataset.
+ 2. Merging the training and the test data sets.
+ 3. Extracting data.
+ 4. Melt the dataset with the approriate names and labels for better handling.
+ 5. Creating a  tidy data set.
+ 
+The run_analysis.R script performs one of the steps described above in more detail:
   1. Read the subject_train.txt, X_train.txt and Y_train.txt files from the "train" directory and store them in train_sub,      train_x and train_y data frames variables respectively.
   2. Read the subject_test.txt, X_test.txt and Y_test.txt files from the "test" directory and store them in test_sub,           test_x and test_y data frames variables respectively.
   3. Merge the train_sub and the test_sub data frames by row to form a new data frame called dt_sub. Similarly, we merge the train_x and test_x data frames by row to form a new data frame called dt_x. Finally, we merge the train_y and test_y data frames by row to form a new data frame called dt_y.
