@@ -3,7 +3,7 @@
 This file describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
 ## Data Source
-The original dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: 
+The original dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made available here: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
