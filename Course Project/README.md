@@ -25,4 +25,4 @@ Here, we describe how run_analysis.R script works.
 The CodeBook.md file explains the transformations performed and the resulting data and variables.
 
 ## About the tidy data set
-The R script will create a tidy data set which containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy_dataset.txt, which can also be found in this repository.
+The R script will create a tidy data set which containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a text file called tidy_dataset.txt, which can also be found in this repository.
