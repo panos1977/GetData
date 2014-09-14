@@ -23,6 +23,10 @@ This data set is split into a training and a test set (70% and 30%, respectively
   * test/subject_test.txt: ID's of subjects in the training data
 
 ## Tidy Dataset
+The final and clean tidy dataset will be a dataframe which will contains the 68 variables:
+ 1. subject: ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+ 2. activity:  Descriptive name of each subject's activity. The factor values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+ 3. The selection of the remaining 66 variables is based on the features.txt file where we extracts only the measurements on the mean and standard deviation for each measurement according to the assignment. For this reason, we included all variables having to do with mean or standard deviation.
 
 ## A description of the analysis script
 The analysis script called run_analysis.R accepts the original dataset and performs the following steps/transformations in order to get the clean tidy dataset. Generally, the analysis script performs the following steps:
