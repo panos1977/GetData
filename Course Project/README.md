@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Course Project
 
 ## Introduction
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the R script called run_analysis.R and the code book called codebook.md.
+This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the R script called run_analysis.R and the code book called CodeBook.md.
 
 ## About the R script
 Here, we describe how run_analysis.R script works.
@@ -15,5 +15,5 @@ Here, we describe how run_analysis.R script works.
 7. Finally, use data <- read.table("tidy_dataset.txt") command in RStudio to read the file. Since we are required to get the average of each variable for each activity and each subject, and there are 6 activities in total and 30 subjects in total, we have 180 rows with all combinations for each of the 66 features. 
 
 ## About the Code Book
-The codebook.md file explains the transformations performed and the resulting data and variables.
+The CodeBook.md file explains the transformations performed and the resulting data and variables.
 
