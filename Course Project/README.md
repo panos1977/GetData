@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Course Project
 
 ## Introduction
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the raw dataset in zip format called HCI HAR Dataset.zip, the R script called run_analysis.R , the code book called CodeBook.md and the tidy data set called tidy_dataset.txt.
+This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the raw dataset in zip format called getdata_projectfiles_UCI HAR Dataset.zip, the R script called run_analysis.R , the code book called CodeBook.md and the tidy data set called tidy_dataset.txt.
 
 ## About the raw dataset
 The raw data was obtained:
