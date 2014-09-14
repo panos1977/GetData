@@ -14,7 +14,7 @@ For description of the raw dataset you can see the CodeBook.md file.
 Here, we describe how run_analysis.R script works.
 
 1. First, download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-2. Unzip the file UCI HAR Dataset.zip and it must be availble in a directory called "UCI HAR Dataset".
+2. Unzip the file getdata_projectfiles_UCI HAR Dataset.zip and it must be availble in a directory called "UCI HAR Dataset".
 3. Make sure the directory "UCI HAR Dataset" and the run_analysis.R script are both in the current working directory.
 4. Open the R script run_analysis.R using RStudio.
 5. Use source("run_analysis.R") command in RStudio. 
