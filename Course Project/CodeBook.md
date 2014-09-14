@@ -2,9 +2,26 @@
 
 This file describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
-* The data set for the project is here:
+## Data Source
+The original dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: 
 
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+
+More specifically, the data set for the project is here:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+This data set is split into a training and a test set (70% and 30%, respectively). Each part is also split into three files that contains the measurements from the accelerometer and gyroscope, activity label and an identifier for the subject. In other words, the dataset included the following data files:
+
+  * features.txt: List of all features.
+  * activity_labels.txt: List of class labels and their activity name.
+  * train/X_train.txt: Training set.
+  * train/y_train.txt: Training labels.
+  * train/subject_train.txt: ID's of subjects in the training data.
+  * test/X_test.txt: Test set.
+  * test/y_test.txt: Test labels.
+  * test/subject_test.txt: ID's of subjects in the training data
+
 
 * The run_analysis.R script performs the following steps/transformations to clean the dataset:
   1. Read the subject_train.txt, X_train.txt and Y_train.txt files from the "train" directory and store them in train_sub,      train_x and train_y data frames variables respectively.
