@@ -13,3 +13,7 @@ Here, we describe how run_analysis.R script works.
 5. Use source("run_analysis.R") command in RStudio. 
 6. After executing of the R script one output file is generated in the current working directory called tidy_dataset.txt.
 7. Finally, use data <- read.table("tidy_dataset.txt") command in RStudio to read the file. Since we are required to get the average of each variable for each activity and each subject, and there are 6 activities in total and 30 subjects in total, we have 180 rows with all combinations for each of the 66 features. 
+
+## About the Code Book
+The codebook.md file explains the transformations performed and the resulting data and variables.
+
