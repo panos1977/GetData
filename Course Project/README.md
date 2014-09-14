@@ -1,7 +1,14 @@
 # Getting and Cleaning Data Course Project
 
 ## Introduction
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the R script called run_analysis.R and the code book called CodeBook.md.
+This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. More specifically, this repo contains the raw dataset in zip format called HCI HAR Dataset.zip, the R script called run_analysis.R , the code book called CodeBook.md and the tidy data set called tidy_dataset.txt.
+
+## About the raw dataset
+The raw data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+For description of the raw dataset you can see the CodeBook.md file.
 
 ## About the R script
 Here, we describe how run_analysis.R script works.
@@ -17,3 +24,5 @@ Here, we describe how run_analysis.R script works.
 ## About the Code Book
 The CodeBook.md file explains the transformations performed and the resulting data and variables.
 
+## About the tidy data set
+The R script will create a tidy data set which containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy_dataset.txt, which can also be found in this repository.
