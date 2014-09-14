@@ -1,6 +1,7 @@
-# Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project: Codebook
 
-This file describes the variables, the data, and any transformations or work that you performed to clean up the data.
+## Introduction
+This file describes the original data set, the variables of the clean data set and the analysis script which contains transformations or work that we performed to clean up the data.
 
 ## Data Source
 The original dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made available here: 
